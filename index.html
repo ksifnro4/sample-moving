@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>sample moving</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ローダー -->
+    <div id="loader">
+        <span class="loader-logo">sample moving</span>
+    </div>
+    <div id="page-content">
+        <!-- ヘッダー -->
+        <header class="header">
+            <div class="header-inner">
+                <div class="logo">sample moving</div>
+                <nav class="nav">
+                    <a href="plan.html">plan</a>
+                    <a href="about.html">about</a>
+                    <a href="flow.html">flow</a>
+                    <a href="contact.html">contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- ヒーローセクション -->
+        <section class="hero">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80"
+                class="hero-img" alt="メインビジュアル">
+            <div class="hero-title">「引越しは“もっと、気軽でいい”。」</div>
+            <div class="hero-sub">
+                単身も、家族も。<br>
+                あなたらしい新生活のスタートを、<br>
+                私たちがサポートします。
+            </div>
+        </section>
+
+        <!-- plan -->
+        <section class="scroll-section" id="plan">
+            <a href="plan.html" class="section-box section-link-box" aria-label="選べる料金プランの詳細ページへ"
+                style="display:block; text-decoration:none; color:inherit;">
+                <h2 class="section-title">選べる料金プラン</h2>
+                <p class="section-desc">
+                    シンプルで分かりやすい料金設定。<br>
+                    あなたのスタイルに合わせて、最適なプランをお選びいただけます。
+                </p>
+                <div class="plans">
+                    <div class="plan-card">
+                        <div class="plan-name">単身プラン</div>
+                        <div class="plan-detail">一人暮らし向け。必要な分だけ、ムダなくお得に。</div>
+                    </div>
+                    <div class="plan-card">
+                        <div class="plan-name">ファミリープラン</div>
+                        <div class="plan-detail">ご家族や荷物が多い方に。安心のサポート体制。</div>
+                    </div>
+                    <div class="plan-card">
+                        <div class="plan-name">おまかせプラン</div>
+                        <div class="plan-detail">梱包〜開梱まですべてプロにおまかせ。</div>
+                    </div>
+                </div>
+            </a>
+        </section>
+        <!-- about -->
+        <section class="scroll-section" id="about">
+            <a href="about.html" class="section-box section-link-box" aria-label="わたしたちについての詳細ページへ"
+                style="display:block; text-decoration:none; color:inherit;">
+                <h2 class="section-title">わたしたちについて</h2>
+                <p class="section-desc">
+                    お客様の“はじめて”に寄り添う、地域密着の引越センターです。<br>
+                    「安心・丁寧・スピーディ」を大切にしています。
+                </p>
+            </a>
+        </section>
+        <!-- flow -->
+        <section class="scroll-section" id="flow">
+            <a href="flow.html" class="section-box section-link-box" aria-label="ご利用の流れの詳細ページへ"
+                style="display:block; text-decoration:none; color:inherit;">
+                <h2 class="section-title">ご利用の流れ</h2>
+                <p class="section-desc">
+                    お見積もりから搬入まで、シンプルな3ステップ。<br>
+                    LINEやお電話で気軽にご相談いただけます。
+                </p>
+                <ol class="flow-list">
+                    <li>お問い合わせ・ご相談</li>
+                    <li>お見積もり・プランご提案</li>
+                    <li>お引越し・アフターサポート</li>
+                </ol>
+            </a>
+        </section>
+        <!-- contact -->
+        <section class="scroll-section" id="contact">
+            <div class="section-box section-link-box" tabindex="0" role="link" aria-label="お問い合わせページへ">
+                <h2 class="section-title">お問い合わせ</h2>
+                <p class="section-desc">
+                    「ちょっと聞いてみたい」でも大歓迎。<br>
+                    LINE・電話で、いつでもお気軽にご連絡ください。
+                </p>
+                <div class="contact-buttons">
+                    <a href="https://line.me/R/ti/p/あなたのLINE-ID" class="contact-btn line" target="_blank"
+                        rel="noopener">
+                        LINEで相談
+                    </a>
+                    <a href="tel:0123456789" class="contact-btn tel">
+                        電話する
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            &copy; 2025 sample moving
+        </footer>
+        <!-- GSAP本体 + ScrollTriggerプラグイン（CDN） -->
+        <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+        <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+        <script src="main.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+.about-content {
+    margin: 3rem 0 0;
+    text-align: left;
+}
+
+.about-title {
+    font-size: 1.45rem;
+    font-weight: 700;
+    margin-bottom: 1.3rem;
+    letter-spacing: 0.04em;
+    color: #333;
+}
+
+.about-feature-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2.5rem;
+}
+
+.about-feature-list li {
+    background: #f8fafc;
+    border-left: 6px solid #0077ff;
+    border-radius: 0.7rem;
+    padding: 1.1rem 1.3rem 1.1rem 1.2rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.09rem;
+}
+
+.feature-head {
+    font-weight: 700;
+    color: #0077ff;
+    font-size: 1.1em;
+}
+
+.about-message {
+    margin: 2.3rem 0 2.3rem;
+    padding: 1.3rem 1.5rem;
+    background: #f6faff;
+    border-radius: 1rem;
+    font-size: 1.04rem;
+    color: #333;
+}
+
+.about-sign {
+    text-align: right;
+    font-size: 0.95rem;
+    color: #666;
+    margin-top: 1.2rem;
+}
+
+.about-profile {
+    margin: 2.5rem 0 0;
+}
+
+.about-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+    font-size: 1.05rem;
+}
+
+.about-table th {
+    background: #f0f4f9;
+    color: #222;
+    font-weight: 600;
+    text-align: left;
+    padding: 0.7em 1em;
+    border-radius: 0.3em 0 0 0.3em;
+    width: 32%;
+}
+
+.about-table td {
+    background: #fff;
+    color: #444;
+    padding: 0.7em 1em;
+    border-radius: 0 0.3em 0.3em 0;
+}
+
+.about-table tr:not(:last-child) th,
+.about-table tr:not(:last-child) td {
+    border-bottom: 1px solid #e0e8f0;
+}

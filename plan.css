@@ -1,0 +1,62 @@
+/* plan.css */
+
+/* プランカードを縦並び＆大きく */
+.plans-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    align-items: center;
+}
+
+.big-card {
+    width: 100%;
+    max-width: 600px;
+    min-height: 200px;
+    padding: 3rem 2rem;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.10);
+    margin: 0 auto;
+    background: #fff;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.big-card .plan-name {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.3rem;
+    color: #222;
+    letter-spacing: 0.04em;
+}
+
+.big-card ul {
+    padding-left: 1.1em;
+    margin: 0;
+    font-size: 1.08rem;
+    color: #444;
+    line-height: 2.1;
+}
+
+.big-card b {
+    font-size: 1.15em;
+    color: #0077ff;
+}
+
+.big-card:hover {
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.18);
+    transform: translateY(-3px) scale(1.02);
+    background: #f6fbff;
+}
+
+/* スマホ対応 */
+@media (max-width: 600px) {
+    .big-card {
+        padding: 2rem 0.7rem;
+        max-width: 98vw;
+        font-size: 1rem;
+    }
+
+    .big-card .plan-name {
+        font-size: 1.3rem;
+    }
+}

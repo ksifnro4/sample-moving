@@ -1,0 +1,67 @@
+.flow-steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.7rem 0 1.5rem;
+}
+
+.flow-step {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 540px;
+    background: #f8fafc;
+    border-radius: 1.2rem;
+    padding: 1.6rem 2rem;
+    margin-bottom: 0.6rem;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04);
+    gap: 1.5rem;
+}
+
+.step-num {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #0077ff;
+    margin-right: 1rem;
+    flex-shrink: 0;
+    margin-top: 0.35em;
+}
+
+.step-content {
+    flex: 1;
+}
+
+.step-title {
+    font-size: 1.18rem;
+    font-weight: 600;
+    margin-bottom: 0.4em;
+    color: #222;
+    letter-spacing: 0.04em;
+}
+
+.step-desc {
+    font-size: 1rem;
+    color: #444;
+    opacity: 0.95;
+    line-height: 1.8;
+}
+
+.flow-arrow {
+    font-size: 1.6rem;
+    color: #bbb;
+    margin: 0.5rem 0;
+}
+
+@media (max-width: 600px) {
+    .flow-step {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.2rem 0.5rem;
+        gap: 0.6rem;
+    }
+
+    .step-num {
+        margin-bottom: 0.4em;
+        margin-right: 0;
+    }
+}
