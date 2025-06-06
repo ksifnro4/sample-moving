@@ -19,7 +19,7 @@
 
 .about-feature-list li {
     background: #f8fafc;
-    border-left: 6px solid #0077ff;
+    border-left: 6px solid #545e00;
     border-radius: 0.7rem;
     padding: 1.1rem 1.3rem 1.1rem 1.2rem;
     margin-bottom: 1.2rem;
@@ -28,7 +28,7 @@
 
 .feature-head {
     font-weight: 700;
-    color: #0077ff;
+    color: #545e00;
     font-size: 1.1em;
 }
 

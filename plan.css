@@ -44,8 +44,21 @@
 
 .big-card:hover {
     box-shadow: 0 12px 48px rgba(0, 0, 0, 0.18);
-    transform: translateY(-3px) scale(1.02);
-    background: #f6fbff;
+    transform: translateY(-3px) scale(1.05);
+    background: #000000;
+}
+
+.big-card:hover,
+.big-card:hover .plan-name,
+.big-card:hover ul,
+.big-card:hover li,
+.big-card:hover b {
+    color: #fff !important;
+}
+
+.big-card:hover b {
+    color: #ffcc00 !important;
+    /* 補色のアクセント例。お好みで */
 }
 
 /* スマホ対応 */

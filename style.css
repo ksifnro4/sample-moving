@@ -143,6 +143,7 @@ body {
     object-fit: cover;
     border-radius: 2vw;
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.07);
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
