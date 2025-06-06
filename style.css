@@ -10,7 +10,12 @@ body {
     letter-spacing: 0.03em;
 }
 
+body.loading {
+    overflow: hidden;
+}
+
 /*  ローダー */
+
 #loader {
     position: fixed;
     z-index: 9999;
